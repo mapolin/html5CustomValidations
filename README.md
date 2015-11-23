@@ -4,7 +4,7 @@ Example:
 
 ## <input type="text" name="name" id="name" required data-validation-message="Custom Validation Message">
 
-`
+```
 var elements = document.querySelectorAll("[data-validation-message]");
 for (var i = 0; i < elements.length; i++) {
     elements[i].oninvalid = function(e) {
@@ -18,4 +18,4 @@ for (var i = 0; i < elements.length; i++) {
         e.target.setCustomValidity("");
     };
 }
-`
+```
