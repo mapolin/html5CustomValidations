@@ -2,7 +2,7 @@
 
 Example:
 
-## <input type="text" name="name" id="name" required data-validation-message="Custom Validation Message">
+``` <input type="text" name="name" id="name" required data-validation-message="Custom Validation Message"> ```
 
 ```
 var elements = document.querySelectorAll("[data-validation-message]");
